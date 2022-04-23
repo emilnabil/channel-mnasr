@@ -1,6 +1,6 @@
 #!/bin/sh # 
  # # Command: wget https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
-MY_URL=https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/  
+MY_URL=https://raw.githubusercontent.com/emilnabil/channel-mnasr/main  
 echo "******************************************************************************************************************"
 echo "    download and install channel  "
 echo "============================================================================================================================="
@@ -48,6 +48,7 @@ echo "**************************************************************************
 wait
 init 6
 exit 0
+
 
 
 
