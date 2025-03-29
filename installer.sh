@@ -1,6 +1,58 @@
 #!/bin/sh # 
- # #  
-echo "TVlfVVJMPWh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lbWlsbmFiaWwvY2hhbm5lbC1tbmFzci9tYWluICAKZWNobyAiKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqIgplY2hvICIgICAgZG93bmxvYWQgYW5kIGluc3RhbGwgY2hhbm5lbCAgIgplY2hvICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKZWNobyAiIHJlbW92ZSBvbGQgY2hhbm5lbCAiCiMgUmVtb3ZlIGFueSBDaGFubmVsICAjIApybSAtcmYgL2V0Yy9lbmlnbWEyLyoudHYgCnJtIC1yZiAvZXRjL2VuaWdtYTIvKi5yYWRpbyAKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwplY2hvICIgICAgICAgICBpbnN0YWxsIGNoYW5uZWwgICAgIgpjZCAvdG1wCnNldCAtZSAKd2dldCAtcSAgImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9lbWlsbmFiaWwvY2hhbm5lbC1tbmFzci9tYWluL2NoYW5uZWxzX2JhY2t1cF9tbmFzci50YXIuZ3oiCndhaXQKdGFyIC14emYgY2hhbm5lbHNfYmFja3VwX21uYXNyLnRhci5neiAgLUMgLwp3YWl0CmNkIC4uCnNldCArZQpybSAtZiAvdG1wL2NoYW5uZWxzX2JhY2t1cF9tbmFzci50YXIuZ3oKc2xlZXAgMjsKZWNobyAiIiAKZWNobyAiSW5zdGFsbGluZyBhc3RyYSBzbSBwYXRjaCIKb3BrZyBpbnN0YWxsIGFzdHJhLXNtIApvcGtnIGluc3RhbGwgZHZic25vb3AKc2xlZXAgMQp3Z2V0IC1PIC9ldGMvYXN0cmEvc2NyaXB0cy9hYmVydGlzICJodHRwczovL2RyaXZlLmdvb2dsZS5jb20vdWM/aWQ9MUIwazYwVVR0bXJIZ1FUclJrSTZTRlIzVGVuQ1pPX2VMJmV4cG9ydD1kb3dubG9hZCIKY2htb2QgNzU1IC9ldGMvYXN0cmEvc2NyaXB0cy9hYmVydGlzCnNsZWVwIDEKd2dldCAtTyAvZXRjL2FzdHJhL2FzdHJhLmNvbmYgImh0dHBzOi8vZHJpdmUuZ29vZ2xlLmNvbS91Yz9pZD0xQjE2cGR0YTRvMnVfUENoVUFHMWhFQVdLajFTbzJ2Q2gmZXhwb3J0PWRvd25sb2FkIgpjaG1vZCA3NTUgL2V0Yy9hc3RyYS9hc3RyYS5jb25mCnNsZWVwIDEKZWNobyAiIgplY2hvICIiCmVjaG8gIiIgCmVjaG8gIioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioiCmVjaG8gIiMgQ2hhbm5lbCAgSU5TVEFMTEVEIFNVQ0NFU1NGVUxMWSAjIgplY2hvICIKZWNobyAiICIqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioiIAoJZWNobyAiKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioiCmVjaG8gIiAgIFVQTE9BREVEIEJZICA+Pj4+ICAgRU1JTF9OQUJJTCAiICAgCnNsZWVwIDQ7CgllY2hvICc9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09JwojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCmVjaG8gIi4gPj4+PiAgICAgICAgIFJFU1RBUklORyAgICAgPDw8PCIKZWNobyAiKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiIKd2FpdAppbml0IDYKZXhpdCAw" | base64 -d | sh
+ # # Command: wget https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
+MY_URL=https://raw.githubusercontent.com/emilnabil/channel-mnasr/main  
+echo "******************************************************************************************************************"
+echo "    download and install channel  "
+echo "============================================================================================================================="
+echo " remove old channel "
+# Remove any Channel  # 
+rm -rf /etc/enigma2/*.tv 
+rm -rf /etc/enigma2/*.radio 
+#####################################################################################
+echo "         install channel    "
+cd /tmp
+set -e 
+wget -q  "https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/channels_backup_mnasr.tar.gz"
+wait
+tar -xzf channels_backup_mnasr.tar.gz  -C /
+wait
+cd ..
+set +e
+rm -f /tmp/channels_backup_mnasr.tar.gz
+sleep 2
+echo "" 
+echo "" 
+echo "****************************************************************************************************************************"
+echo "# Channel  INSTALLED SUCCESSFULLY #"
+echo "
+echo " "*********************************************************" 
+	echo "********************************************************************************"
+echo "   UPLOADED BY  >>>>   EMIL_NABIL "   
+sleep 4
+	echo '========================================================================================================================='
+                                                                           
+exit 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
