@@ -11,6 +11,13 @@ echo "**************************************************************************
 echo "        DOWNLOAD AND INSTALL CHANNEL"
 echo "=================================================================================================================="
 
+if [ -f /etc/opkg/opkg.conf ]; then
+    STATUS='/var/lib/opkg/status'
+    OSTYPE='Opensource'
+    OPKG='opkg update'
+    OPKGINSTAL='opkg install'
+fi
+
 echo "        REMOVE OLD CHANNELS..."
 rm -rf /etc/enigma2/*.tv
 rm -rf /etc/enigma2/*.radio
@@ -34,6 +41,14 @@ echo "   UPLOADED BY >>>> EMIL_NABIL"
 echo "================================================================================"
 sleep 4
 
+if [ "${OSTYPE}" = "Opensource" ]; then
+    killall -9 enigma2
+else
+    systemctl restart enigma2
+fi
+
 exit 0
+
+
 
 
